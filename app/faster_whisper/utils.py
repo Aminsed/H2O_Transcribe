@@ -13,7 +13,6 @@ MILLISECONDS_IN_HOUR = 3_600_000
 MILLISECONDS_IN_MINUTE = 60_000
 MILLISECONDS_IN_SECOND = 1_000
 
-from ctranslate2.converters.transformers import TransformersConverter
 
 def model_converter(model, model_output):
     logger.info(f"Converting model: {model}")
