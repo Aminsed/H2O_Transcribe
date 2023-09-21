@@ -77,7 +77,7 @@ The service returns a JSON with the following fields:
 
 ## Logging
 
-The log file, named h2o-transcribe.log, can be found in the app folder.
+The log file, named h2o-transcribe.log, can be found in the app folder. The default value is INFO (A docker argument will be added in next version to set the log level).
 
 ## Docker Build
 
